@@ -1,0 +1,6 @@
+scenario_id,issue_type,entity_type,entity_id,expected_decision,fields_json
+CASE-001,PAYOUT_BEFORE_DELIVERY_OR_HOLD_RELEASE,PayoutLine,FIXTURE-PAYOUT-001,REJECT_PAYOUT,"{""delivered"": false, ""hold_released"": false, ""proposed_net"": ""95.00""}"
+CASE-002,COMMISSION_APPLIED_TWICE,PayoutLine,FIXTURE-COMMISSION-002,FLAG_DUPLICATE_COMMISSION,"{""gross"": ""100.00"", ""rate"": ""0.10"", ""expected_commission"": ""10.00"", ""actual_commission"": ""20.00""}"
+CASE-003,SUSPENDED_SELLER_CONTINUES_LISTING,ProductListing,LIST-SELL-000970-000064,BLOCK_LISTING,"{""seller_status"": ""SUSPENDED"", ""listing_status"": ""ACTIVE""}"
+CASE-004,DISPUTE_NOT_DEDUCTED,PayoutLine,FIXTURE-DISPUTE-004,RECALCULATE_DEDUCTION,"{""dispute_status"": ""LOST"", ""dispute_amount"": ""25.00"", ""actual_deduction"": ""0.00""}"
+CASE-005,PAYOUT_TOTAL_MISMATCH,Payout,FIXTURE-PAYOUT-005,BLOCK_PAYOUT,"{""payout_header_total"": ""90.00"", ""sum_of_lines"": ""95.00""}"

@@ -1,0 +1,7 @@
+commission_rule_id,category,commission_rate,effective_from,effective_to
+COMM-001,Electronics,0.08,2025-01-01,
+COMM-002,Home,0.10,2025-01-01,
+COMM-003,Fashion,0.12,2025-01-01,
+COMM-004,Books,0.07,2025-01-01,
+COMM-005,Beauty,0.11,2025-01-01,
+COMM-006,Sports,0.09,2025-01-01,

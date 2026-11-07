@@ -1,0 +1,39 @@
+{
+  "seed": 20261022,
+  "scale": "full",
+  "generated_at": "DETERMINISTIC_BASELINE_2026",
+  "counts": {
+    "seller": 2000,
+    "product_listing": 20000,
+    "customer_order": 100000,
+    "order_line": 138834,
+    "fulfillment": 138834,
+    "customer_review": 44231,
+    "dispute": 10000,
+    "commission_rule": 6,
+    "payout": 2000,
+    "payout_line": 138834,
+    "seller_status_history": 37,
+    "fulfillment_event": 277668,
+    "payout_event": 2000,
+    "ground_truth": 180,
+    "negative_scenarios": 5
+  },
+  "files": {
+    "seller.csv": "4a47d0574dec553153b59ce04162bc453b408c9f6225837fabbc42f1099c67db",
+    "product_listing.csv": "17119320735f44a2e1f4eb16006693bd058682ba98346e1e99e785c35cd28dd0",
+    "customer_order.csv": "8af28d19ef883258d17e2dbad40348e1272b5eeb92e016639ac0c1e8d44259e9",
+    "order_line.csv": "38053a29550f25816097fc7ea385a170c8a5bc768224e51102485bb80f6ad14d",
+    "fulfillment.csv": "1282c9d50973c60fe2932b06f4d636fce3f70e854c9bd5eeb1c1060958829b73",
+    "customer_review.csv": "22d855f604bc663040f04ccb5bfc226caff8466602143ff1288fbb3c7c7b7090",
+    "dispute.csv": "b14a576301da73cb0bc84a93463bb53d6cf03a1075cc90317bdbf9f5486aa5bf",
+    "commission_rule.csv": "7e029c6463a350f23a6c8c03c8a853801a3c414a98a41a666879bfd372f0df55",
+    "payout.csv": "e562931024221cac4d6e7d3b7131365669ebc3dabc91bd9d86ef4d37056f8f0b",
+    "payout_line.csv": "0463beec58d077378d1be7fc38b8a77ffdda56e5f35e100dd1284ac078ad11b9",
+    "seller_status_history.csv": "a7c7431417f75d627fb3c7aea000ab499a3b12398d439d8fad1d539c71d1c7d5",
+    "fulfillment_event.csv": "cfd254ec3c22aee11558daa779193dc4e453b16ba0569037181cd6c8a31c9dc4",
+    "payout_event.csv": "d9ba913b963a78a08947e69059b12e589e14ae71e358b72316a42652842d3ddd",
+    "ground_truth.csv": "96433b3b7bb1ec38e7db7db1ea5ef94e29304690b1c8334da2a59ee3b6adcbf0",
+    "negative_scenarios.csv": "fcdc0d10b5a07594acc497564d9ae64a7da48e6f71fac802a21282c1476cb28a"
+  }
+}
